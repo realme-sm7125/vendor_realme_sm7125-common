@@ -505,7 +505,6 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     QtiTelephonyService \
-    SoterService \
     WigigTetheringRRO \
     atfwd \
     datastatusnotification \
