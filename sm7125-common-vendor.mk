@@ -586,4 +586,5 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig-V2.1-java \
     vendor.qti.latency-V2.0-java \
     vendor.qti.voiceprint-V1.0-java \
-    wigig-service
+    wigig-service \
+    android.hardware.usb@1.0-service
