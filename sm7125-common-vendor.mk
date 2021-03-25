@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/sm7125-common
 
 PRODUCT_COPY_FILES += \
-    vendor/realme/sm7125-common/proprietary/bin/hw/android.hardware.usb@1.0-service.realme_sm7125:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.usb@1.0-service.realme_sm7125 \
-    vendor/realme/sm7125-common/proprietary/etc/init/android.hardware.usb@1.0-service.realme_sm7125.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.usb@1.0-service.realme_sm7125.rc \
     vendor/realme/sm7125-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/realme/sm7125-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/realme/sm7125-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
@@ -501,7 +499,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/realme/sm7125-common/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
     vendor/realme/sm7125-common/proprietary/system_ext/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qspmhal@1.0.so \
-    vendor/realme/sm7125-common/proprietary/system_ext/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.voiceprint@1.0.so
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.voiceprint@1.0.so \
+    vendor/realme/sm7125-common/proprietary/lib/android.hardware.usb@1.0.realme_sm7125.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.usb@1.0.realme_sm7125.so \
+    vendor/realme/sm7125-common/proprietary/lib64/android.hardware.usb@1.0.realme_sm7125.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.usb@1.0.realme_sm7125.so \
+    vendor/realme/sm7125-common/proprietary/bin/hw/android.hardware.usb@1.0-service.realme_sm7125:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.usb@1.0-service.realme_sm7125 \
+    vendor/realme/sm7125-common/proprietary/etc/init/android.hardware.usb@1.0-service.realme_sm7125.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.usb@1.0-service.realme_sm7125.rc
 
 PRODUCT_PACKAGES += \
     PowerOffAlarm \
