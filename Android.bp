@@ -666,11 +666,3 @@ dex_import {
 	system_ext_specific: true,
 }
 
-prebuilt_etc_xml {
-        name: "android.hardware.usb@1.0-service.realme_sm7125",
-        owner: "realme",
-        src: "proprietary/etc/vintf/manifest/android.hardware.usb@1.0-service.realme_sm7125.xml",
-        filename_from_src: true,
-        sub_dir: "vintf/manifest",
-}
-
