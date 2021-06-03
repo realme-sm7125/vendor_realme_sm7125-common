@@ -6,8 +6,14 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX2170
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/RMX2170/proprietary/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.nfc@1.2-service \
+    vendor/realme/RMX2170/proprietary/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.nfc@1.2-service.rc \
     vendor/realme/RMX2170/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/realme/RMX2170/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/realme/RMX2170/proprietary/lib/libpn553_fw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpn553_fw.so \
+    vendor/realme/RMX2170/proprietary/lib/libpn557_fw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpn557_fw.so \
+    vendor/realme/RMX2170/proprietary/lib64/ese_spi_nxp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/ese_spi_nxp.so \
+    vendor/realme/RMX2170/proprietary/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/nfc_nci_nxp.so \
     vendor/realme/RMX2170/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/realme/RMX2170/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml \
     vendor/realme/RMX2170/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml \
